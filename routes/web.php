@@ -20,3 +20,18 @@ Route::get('/', function () {
     $data = ['comics' => config('comics')];
     return view('guest.home', $data);
 })->name('home');
+
+Route::get('/characters', function () {
+     $data = ['comics' => config('comics')];
+    return view('guest.characters', $data);
+})->name('characters');
+
+Route::get('/movies', function () {
+     $data = ['comics' => config('comics')];
+    return view('guest.movies', $data);
+})->name('movies');
+
+Route::get('/product', function () {
+     $data = ['comics' => config('comics')];
+    return view('guest.product', $data);
+})->name('product');

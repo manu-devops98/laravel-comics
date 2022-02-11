@@ -18,7 +18,7 @@
                     <div class="container-img">
                         <img src="{{$card['thumb']}}" alt="{{$card['title']}}">
                     </div>
-                    <h2>{{ $card['title'] }}</h2>
+                    <a href="{{route('product')}}">{{ $card['title'] }}</a>
                 </div>
             @endforeach
         </div>

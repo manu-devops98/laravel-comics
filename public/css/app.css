@@ -73,9 +73,11 @@ main .cards-container .card .container-img img {
   width: 100%;
 }
 
-main .cards-container .card h2 {
+main .cards-container .card a {
   font-size: 0.8em;
+  color: white;
   text-transform: uppercase;
+  text-decoration: none;
   margin-top: 10px;
 }
 
@@ -124,7 +126,7 @@ main .container-icons .container-80 .box img {
 }
 
 main .container-icons .container-80 .box h3 {
-  font-size: 0.8em;
+  font-size: 0.6em;
   margin-left: 1em;
   text-transform: uppercase;
 }
@@ -192,5 +194,99 @@ header .container-80 .header-bottom .input input {
   padding: 0.5em;
   border: none;
   border-bottom: 2px solid #0082f9;
+}
+
+footer .footer-top {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  position: relative;
+}
+
+footer .footer-top .container-80 {
+  display: flex;
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 50%;
+  padding: 2em;
+}
+
+footer .footer-top .container-80 .col-left {
+  display: flex;
+}
+
+footer .footer-top .container-80 .col-left .col {
+  margin: 0 2em 0 0;
+}
+
+footer .footer-top .container-80 .col-left .col h3 {
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+footer .footer-top .container-80 .col-left .col ul {
+  list-style: none;
+}
+
+footer .footer-top .container-80 .col-left .col ul li {
+  margin-bottom: 0.3em;
+}
+
+footer .footer-top .container-80 .col-left .col ul li a {
+  color: #797979;
+  text-decoration: none;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+footer .footer-top .container-80 .col-left .col ul li a:hover {
+  color: #0082f9;
+  z-index: 3;
+}
+
+footer .footer-bottom {
+  background-color: #30302f;
+  height: 100px;
+  display: flex;
+  z-index: 2;
+}
+
+footer .footer-bottom .container-80 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-bottom .container-80 .button {
+  text-decoration: none;
+  color: white;
+  padding: 1em 1.5em;
+  border: 2px solid #0082f9;
+  transition: 0.5s;
+}
+
+footer .footer-bottom .container-80 .button:hover {
+  background-color: #0082f9;
+}
+
+footer .footer-bottom .container-80 .col-right {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-bottom .container-80 .col-right #follow {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  color: #0082f9;
+  cursor: pointer;
+}
+
+footer .footer-bottom .container-80 .col-right img {
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+footer .footer-bottom .container-80 .col-right img:hover {
+  filter: opacity(0.3);
 }
 

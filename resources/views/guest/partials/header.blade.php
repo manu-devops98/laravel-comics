@@ -9,9 +9,9 @@
         <div class="header-bottom flex">
             <img src="{{asset('img/dc-logo.png')}}" alt="" />
             <ul class="flex">
-              <li><a href="">CHARACTERS</a></li>
-              <li><a class="active" href="">COMICS</a></li>
-              <li><a href="">MOVIES</a></li>
+              <li><a class="{{ 'characters' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('characters')}}">CHARACTERS</a></li>
+              <li><a class="{{ 'home' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('home')}}">COMICS</a></li>
+              <li><a class="{{ 'movies' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('movies')}}">MOVIES</a></li>
               <li><a href="">TV</a></li>
               <li><a href="">GAMES</a></li>
               <li><a href="">COLLECTIBLES</a></li>
