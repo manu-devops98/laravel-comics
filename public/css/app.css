@@ -22,12 +22,71 @@ html {
   display: flex;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
+main {
+  background-color: black;
+  color: white;
+}
+
+main .jumbotron-bg {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+main .current {
+  position: absolute;
+  bottom: -20px;
+  left: 12em;
+  background-color: #0082f9;
+}
+
+main .current h2 {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+}
+
+main .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 2em 0;
+}
+
+main .cards-container .card {
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+main .cards-container .card .container-img {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+main .cards-container .card .container-img img {
   width: 100%;
-  height: 120px;
+}
+
+main .cards-container .card h2 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+main .cards-container .card:hover {
+  transform: scale(1.1);
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 140px;
   z-index: 9999;
   background-color: white;
   display: flex;
