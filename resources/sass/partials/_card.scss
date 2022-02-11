@@ -49,4 +49,42 @@ main {
             }
         }
     }
+    .button {
+        justify-content: center;
+        align-items: center;
+        button {
+            background-color: #0082f9;
+            padding: 0.5em 2.5em;
+            border: none;
+            margin-bottom: 2em;
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 0.7em;
+                font-weight: bold;
+            }
+        }
+    }
+    .container-icons {
+        background-color: #0082f9;
+        .container-80 {
+            display: flex;
+            padding: 2em;
+            .box {
+                display: flex;
+                align-items: center;
+                width: calc(100% / 5);
+                margin-left: 3em;
+                cursor: pointer;
+                img {
+                    width: 15%;
+                }
+                h3 {
+                    font-size: 0.8em;
+                    margin-left: 1em;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
 }

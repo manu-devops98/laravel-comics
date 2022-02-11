@@ -83,6 +83,52 @@ main .cards-container .card:hover {
   transform: scale(1.1);
 }
 
+main .button {
+  justify-content: center;
+  align-items: center;
+}
+
+main .button button {
+  background-color: #0082f9;
+  padding: 0.5em 2.5em;
+  border: none;
+  margin-bottom: 2em;
+}
+
+main .button button a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+main .container-icons {
+  background-color: #0082f9;
+}
+
+main .container-icons .container-80 {
+  display: flex;
+  padding: 2em;
+}
+
+main .container-icons .container-80 .box {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-left: 3em;
+  cursor: pointer;
+}
+
+main .container-icons .container-80 .box img {
+  width: 15%;
+}
+
+main .container-icons .container-80 .box h3 {
+  font-size: 0.8em;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
 header {
   position: relative;
   width: 100%;
