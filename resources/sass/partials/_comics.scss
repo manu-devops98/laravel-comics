@@ -1,0 +1,178 @@
+.container-comics {
+    .jumbotron-bg {
+        background-image: url("/images/jumbotron.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        position: relative;
+    }
+
+    .container-img {
+        background-color: #0082f9;
+        height: 60px;
+        position: relative;
+        img {
+            position: absolute;
+            bottom: 10px;
+            left: 25%;
+            width: 150px;
+            border: 2px solid white;
+            z-index: 4;
+        }
+    }
+    .container-60 {
+        .container-text {
+            padding: 3em 0;
+            .col-left {
+                width: 80%;
+                padding: 0.8em 0;
+                h1 {
+                    font-size: 1.3em;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                .ticket {
+                    background-color: #55ba59;
+                    font-size: 0.8em;
+                    width: 90%;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 1em;
+                    .col-left {
+                        justify-content: space-between;
+                        border-right: 1px solid black;
+                        padding: 0.6em 1.4em;
+                        p {
+                            color: #a3fe9c;
+                            span {
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .col-right {
+                        width: 20%;
+
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                            font-size: 0.8em;
+                            font-weight: bold;
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+                .comics-description {
+                    width: 90%;
+                    p {
+                        font-size: 0.8em;
+                        color: grey;
+                    }
+                }
+            }
+            .col-right {
+                cursor: pointer;
+                h3 {
+                    text-align: right;
+                    color: grey;
+                    font-size: 0.9em;
+                    font-weight: bold;
+                    margin-bottom: 0.5em;
+                }
+            }
+        }
+    }
+    .container-info {
+        background-color: #f6f6f6;
+        padding-top: 2em;
+        .container-60 {
+            justify-content: space-between;
+            .col-left {
+                width: 50%;
+                h2 {
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                .artist,
+                .writers {
+                    justify-content: space-between;
+                    border-bottom: 1px solid lightgray;
+                    border-top: 1px solid lightgray;
+                    padding: 1em 0;
+                    width: 100%;
+                    .col-left {
+                        width: 30%;
+                        p {
+                            color: grey;
+                            font-size: 0.8em;
+                        }
+                    }
+                    .col-right {
+                        width: 70%;
+                        a {
+                            text-decoration: none;
+                            font-size: 0.8em;
+                            color: #60b7e1;
+                        }
+                    }
+                }
+            }
+            .col-right {
+                width: calc(50% - 4em);
+                margin-left: 4em;
+                h2 {
+                    font-weight: bold;
+                    margin-bottom: 1em;
+                }
+                .series,
+                .price,
+                .sale-date {
+                    justify-content: space-between;
+                    border-bottom: 1px solid lightgray;
+                    border-top: 1px solid lightgray;
+                    padding: 1em 0;
+                    width: 100%;
+                    .col-left {
+                        width: 30%;
+                        p {
+                            color: grey;
+                            font-size: 0.8em;
+                        }
+                    }
+                    .col-right {
+                        width: 70%;
+                        a {
+                            text-decoration: none;
+                            font-size: 0.8em;
+                            color: #60b7e1;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+        .container-icons {
+            border-top: 1px solid lightgray;
+            margin-top: 8em;
+            .container-60 {
+                .box {
+                    width: calc(100% / 4);
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 1em;
+                    border: 1px solid lightgray;
+                    img {
+                        width: 25px;
+                        filter: invert(30%);
+                    }
+                    h3 {
+                        font-size: 0.7em;
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+}

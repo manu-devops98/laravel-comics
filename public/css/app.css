@@ -18,6 +18,11 @@ html {
   margin: 0 auto;
 }
 
+.container-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -27,7 +32,7 @@ main {
   color: white;
 }
 main .jumbotron-bg {
-  background-image: url("/img/jumbotron.jpg");
+  background-image: url("/images/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -114,6 +119,189 @@ main .container-icons .container-80 .box h3 {
   text-transform: uppercase;
 }
 
+.container-comics .jumbotron-bg {
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+.container-comics .container-img {
+  background-color: #0082f9;
+  height: 60px;
+  position: relative;
+}
+.container-comics .container-img img {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  width: 150px;
+  border: 2px solid white;
+  z-index: 4;
+}
+.container-comics .container-60 .container-text {
+  padding: 3em 0;
+}
+.container-comics .container-60 .container-text .col-left {
+  width: 80%;
+  padding: 0.8em 0;
+}
+.container-comics .container-60 .container-text .col-left h1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.container-comics .container-60 .container-text .col-left .ticket {
+  background-color: #55ba59;
+  font-size: 0.8em;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.container-comics .container-60 .container-text .col-left .ticket .col-left {
+  justify-content: space-between;
+  border-right: 1px solid black;
+  padding: 0.6em 1.4em;
+}
+.container-comics .container-60 .container-text .col-left .ticket .col-left p {
+  color: #a3fe9c;
+}
+.container-comics .container-60 .container-text .col-left .ticket .col-left p span {
+  color: white;
+  font-weight: bold;
+}
+.container-comics .container-60 .container-text .col-left .ticket .col-right {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.container-comics .container-60 .container-text .col-left .ticket .col-right a {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.container-comics .container-60 .container-text .col-left .comics-description {
+  width: 90%;
+}
+.container-comics .container-60 .container-text .col-left .comics-description p {
+  font-size: 0.8em;
+  color: grey;
+}
+.container-comics .container-60 .container-text .col-right {
+  cursor: pointer;
+}
+.container-comics .container-60 .container-text .col-right h3 {
+  text-align: right;
+  color: grey;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.container-comics .container-info {
+  background-color: #f6f6f6;
+  padding-top: 2em;
+}
+.container-comics .container-info .container-60 {
+  justify-content: space-between;
+}
+.container-comics .container-info .container-60 .col-left {
+  width: 50%;
+}
+.container-comics .container-info .container-60 .col-left h2 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.container-comics .container-info .container-60 .col-left .artist,
+.container-comics .container-info .container-60 .col-left .writers {
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding: 1em 0;
+  width: 100%;
+}
+.container-comics .container-info .container-60 .col-left .artist .col-left,
+.container-comics .container-info .container-60 .col-left .writers .col-left {
+  width: 30%;
+}
+.container-comics .container-info .container-60 .col-left .artist .col-left p,
+.container-comics .container-info .container-60 .col-left .writers .col-left p {
+  color: grey;
+  font-size: 0.8em;
+}
+.container-comics .container-info .container-60 .col-left .artist .col-right,
+.container-comics .container-info .container-60 .col-left .writers .col-right {
+  width: 70%;
+}
+.container-comics .container-info .container-60 .col-left .artist .col-right a,
+.container-comics .container-info .container-60 .col-left .writers .col-right a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #60b7e1;
+}
+.container-comics .container-info .container-60 .col-right {
+  width: calc(50% - 4em);
+  margin-left: 4em;
+}
+.container-comics .container-info .container-60 .col-right h2 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.container-comics .container-info .container-60 .col-right .series,
+.container-comics .container-info .container-60 .col-right .price,
+.container-comics .container-info .container-60 .col-right .sale-date {
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  padding: 1em 0;
+  width: 100%;
+}
+.container-comics .container-info .container-60 .col-right .series .col-left,
+.container-comics .container-info .container-60 .col-right .price .col-left,
+.container-comics .container-info .container-60 .col-right .sale-date .col-left {
+  width: 30%;
+}
+.container-comics .container-info .container-60 .col-right .series .col-left p,
+.container-comics .container-info .container-60 .col-right .price .col-left p,
+.container-comics .container-info .container-60 .col-right .sale-date .col-left p {
+  color: grey;
+  font-size: 0.8em;
+}
+.container-comics .container-info .container-60 .col-right .series .col-right,
+.container-comics .container-info .container-60 .col-right .price .col-right,
+.container-comics .container-info .container-60 .col-right .sale-date .col-right {
+  width: 70%;
+}
+.container-comics .container-info .container-60 .col-right .series .col-right a,
+.container-comics .container-info .container-60 .col-right .price .col-right a,
+.container-comics .container-info .container-60 .col-right .sale-date .col-right a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #60b7e1;
+  text-transform: uppercase;
+}
+.container-comics .container-info .container-icons {
+  border-top: 1px solid lightgray;
+  margin-top: 8em;
+}
+.container-comics .container-info .container-icons .container-60 .box {
+  width: 25%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1em;
+  border: 1px solid lightgray;
+}
+.container-comics .container-info .container-icons .container-60 .box img {
+  width: 25px;
+  filter: invert(30%);
+}
+.container-comics .container-info .container-icons .container-60 .box h3 {
+  font-size: 0.7em;
+  color: grey;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -170,13 +358,13 @@ header .container-80 .header-bottom .input input {
 }
 
 footer .footer-top {
-  background-image: url(/img/footer-bg.jpg);
+  background-image: url(/images/footer-bg.jpg);
   background-size: cover;
   position: relative;
 }
 footer .footer-top .container-80 {
   display: flex;
-  background-image: url(/img/dc-logo-bg.png);
+  background-image: url(/images/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 50%;

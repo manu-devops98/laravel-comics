@@ -31,3 +31,18 @@ Route::get('/movies', function () {
 })->name('movies');
 
 
+Route::get('comics/{id}', function ($id) {
+    $collection = collect(config('comics'));
+    $comics = $collection->where('id',$id);
+
+    $singleComics = '';
+    foreach ($comics as $value) {
+        $singleComics = $value;
+    }
+    $data = ['comics' => $singleComics];
+    return view('guest.comics', $data);
+})->name('product');
+
+
+
+
