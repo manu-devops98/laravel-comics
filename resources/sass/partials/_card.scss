@@ -3,11 +3,12 @@ main {
     color: white;
     // margin-top: 115px;
     .jumbotron-bg {
-        background-image: url("../../img/jumbotron.jpg");
+        background-image: url("/img/jumbotron.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
         position: relative;
+        // z-index: 0;
     }
     .current {
         position: absolute;

@@ -27,7 +27,7 @@ main {
   color: white;
 }
 main .jumbotron-bg {
-  background-image: url("../../img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -170,13 +170,13 @@ header .container-80 .header-bottom .input input {
 }
 
 footer .footer-top {
-  background-image: url(../../img/footer-bg.jpg);
+  background-image: url(/img/footer-bg.jpg);
   background-size: cover;
   position: relative;
 }
 footer .footer-top .container-80 {
   display: flex;
-  background-image: url(../../img/dc-logo-bg.png);
+  background-image: url(/img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 50%;
