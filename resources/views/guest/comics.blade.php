@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-right">
                         @foreach ($comics['artists'] as $artist)
-                    <a href="#">{{ $artist }}</a>
+                    <a href="#">{{ $artist }},</a>
                         @endforeach
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-right">
                         @foreach ($comics['writers'] as $artist)
-                    <a href="#">{{ $artist }}</a>
+                    <a href="#">{{ $artist }},</a>
                         @endforeach
                     </div>
                 </div>
