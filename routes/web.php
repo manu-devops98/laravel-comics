@@ -27,11 +27,7 @@ Route::get('/characters', function () {
 })->name('characters');
 
 Route::get('/movies', function () {
-     $data = ['comics' => config('comics')];
-    return view('guest.movies', $data);
+    return view('guest.movies');
 })->name('movies');
 
-Route::get('/product', function () {
-     $data = ['comics' => config('comics')];
-    return view('guest.product', $data);
-})->name('product');
+

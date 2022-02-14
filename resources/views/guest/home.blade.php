@@ -7,7 +7,6 @@
 @section('content')
     <main>
         <div class="jumbotron-bg">
-
             <div class="current">
                 <h2>CURRENT SERIES</h2>
             </div>
@@ -18,7 +17,8 @@
                     <div class="container-img">
                         <img src="{{$card['thumb']}}" alt="{{$card['title']}}">
                     </div>
-                    <a href="{{route('product')}}">{{ $card['title'] }}</a>
+                    {{-- <a href="{{route('product')}}">{{ $card['title'] }}</a> --}}
+                    <a href="">{{ $card['title'] }}</a>
                 </div>
             @endforeach
         </div>

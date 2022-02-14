@@ -26,29 +26,25 @@ main {
   background-color: black;
   color: white;
 }
-
 main .jumbotron-bg {
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("../../img/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
   position: relative;
 }
-
 main .current {
   position: absolute;
   bottom: -20px;
   left: 12em;
   background-color: #0082f9;
 }
-
 main .current h2 {
   font-size: 1.2em;
   padding: 0.5em 1em;
   color: white;
   font-weight: bold;
 }
-
 main .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -56,23 +52,19 @@ main .cards-container {
   gap: 0.5em;
   padding: 2em 0;
 }
-
 main .cards-container .card {
   width: 150px;
   margin: 10px;
   cursor: pointer;
 }
-
 main .cards-container .card .container-img {
   height: 150px;
   width: 150px;
   overflow: hidden;
 }
-
 main .cards-container .card .container-img img {
   width: 100%;
 }
-
 main .cards-container .card a {
   font-size: 0.8em;
   color: white;
@@ -80,39 +72,32 @@ main .cards-container .card a {
   text-decoration: none;
   margin-top: 10px;
 }
-
 main .cards-container .card:hover {
   transform: scale(1.1);
 }
-
 main .button {
   justify-content: center;
   align-items: center;
 }
-
 main .button button {
   background-color: #0082f9;
   padding: 0.5em 2.5em;
   border: none;
   margin-bottom: 2em;
 }
-
 main .button button a {
   color: white;
   text-decoration: none;
   font-size: 0.7em;
   font-weight: bold;
 }
-
 main .container-icons {
   background-color: #0082f9;
 }
-
 main .container-icons .container-80 {
   display: flex;
   padding: 2em;
 }
-
 main .container-icons .container-80 .box {
   display: flex;
   align-items: center;
@@ -120,11 +105,9 @@ main .container-icons .container-80 .box {
   margin-left: 3em;
   cursor: pointer;
 }
-
 main .container-icons .container-80 .box img {
   width: 15%;
 }
-
 main .container-icons .container-80 .box h3 {
   font-size: 0.6em;
   margin-left: 1em;
@@ -140,15 +123,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-
 header .header-top {
   background-color: #0082f9;
 }
-
 header .header-top .container-80 {
   justify-content: flex-end;
 }
-
 header .header-top .container-80 h4 {
   color: white;
   font-size: 0.5em;
@@ -156,20 +136,16 @@ header .header-top .container-80 h4 {
   margin-right: 1.2em;
   padding: 0.4em;
 }
-
 header .container-80 .header-bottom {
   justify-content: space-between;
   align-items: center;
 }
-
 header .container-80 .header-bottom img {
   width: 70px;
 }
-
 header .container-80 .header-bottom ul {
   list-style: none;
 }
-
 header .container-80 .header-bottom ul li a {
   font-size: 1em;
   text-decoration: none;
@@ -179,17 +155,14 @@ header .container-80 .header-bottom ul li a {
   border-bottom: 4px solid transparent;
   transition: 0.6s;
 }
-
 header .container-80 .header-bottom ul li a:hover {
   color: #0082f9;
   border-bottom: 4px solid #0082f9;
 }
-
 header .container-80 .header-bottom ul li a.active {
   color: #0082f9;
   border-bottom: 4px solid #0082f9;
 }
-
 header .container-80 .header-bottom .input input {
   padding: 0.5em;
   border: none;
@@ -197,66 +170,55 @@ header .container-80 .header-bottom .input input {
 }
 
 footer .footer-top {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url(../../img/footer-bg.jpg);
   background-size: cover;
   position: relative;
 }
-
 footer .footer-top .container-80 {
   display: flex;
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url(../../img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 50%;
   padding: 2em;
 }
-
 footer .footer-top .container-80 .col-left {
   display: flex;
 }
-
 footer .footer-top .container-80 .col-left .col {
   margin: 0 2em 0 0;
 }
-
 footer .footer-top .container-80 .col-left .col h3 {
   color: white;
   margin-bottom: 0.5em;
 }
-
 footer .footer-top .container-80 .col-left .col ul {
   list-style: none;
 }
-
 footer .footer-top .container-80 .col-left .col ul li {
   margin-bottom: 0.3em;
 }
-
 footer .footer-top .container-80 .col-left .col ul li a {
   color: #797979;
   text-decoration: none;
   font-size: 0.8em;
   cursor: pointer;
 }
-
 footer .footer-top .container-80 .col-left .col ul li a:hover {
   color: #0082f9;
   z-index: 3;
 }
-
 footer .footer-bottom {
   background-color: #30302f;
   height: 100px;
   display: flex;
   z-index: 2;
 }
-
 footer .footer-bottom .container-80 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 footer .footer-bottom .container-80 .button {
   text-decoration: none;
   color: white;
@@ -264,29 +226,23 @@ footer .footer-bottom .container-80 .button {
   border: 2px solid #0082f9;
   transition: 0.5s;
 }
-
 footer .footer-bottom .container-80 .button:hover {
   background-color: #0082f9;
 }
-
 footer .footer-bottom .container-80 .col-right {
   display: flex;
   align-items: center;
 }
-
 footer .footer-bottom .container-80 .col-right #follow {
   font-size: 1.2em;
   margin-right: 0.5em;
   color: #0082f9;
   cursor: pointer;
 }
-
 footer .footer-bottom .container-80 .col-right img {
   margin: 0 0.5em;
   cursor: pointer;
 }
-
 footer .footer-bottom .container-80 .col-right img:hover {
   filter: opacity(0.3);
 }
-
