@@ -1,7 +1,7 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-    Fumetti
+    Fumetto - {{ $comics['title'] }}
 @endsection
 
 @section('content')
